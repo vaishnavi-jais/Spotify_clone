@@ -1,0 +1,280 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: black;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-content {
+  background-color: #121212;
+  flex-grow: 1;
+  margin-left: 0.75rem;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  overflow-y: auto;
+}
+
+.nav, .library {
+  background-color: #121212;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+}
+
+.nav-option, .library-option {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  padding: 0.4rem 0;
+}
+
+.nav-option:hover, .library-option:hover, .icons i:hover {
+  opacity: 1;
+}
+
+.nav-option a, .library-option a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.library-option img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.icons i {
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.lib-box {
+  margin-top: 0.5rem;
+}
+
+.box {
+  background-color: #232323;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.box-p1 {
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.box-p2 {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 100px;
+  padding: 0.35rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.music-player {
+  background-color: black;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #333;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  z-index: 10;
+}
+
+.nav-icon img {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #232323;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  width: 160px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card:hover {
+  background-color: #2a2a2a;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.card-info {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+.footer{
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.line{
+width:90%;
+height:30%;
+border-top:1px solid white;
+opacity:0.4;
+}
+.music-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background-color: #181818;
+  border-top: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 1000;
+  color: white;
+}
+
+/* LEFT: Song Info */
+.player-left {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.player-left img {
+  height: 56px;
+  width: 56px;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+.song-info {
+  display: flex;
+  flex-direction: column;
+}
+.song-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.song-artist {
+  font-size: 0.75rem;
+  color: #b3b3b3;
+}
+
+/* CENTER: Controls */
+.player-center {
+  width: 50%;
+  text-align: center;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.controls i {
+  font-size: 1rem;
+  cursor: pointer;
+  color: #b3b3b3;
+}
+.controls i:hover {
+  color: #fff;
+}
+.play-button {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Progress Bar */
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.progress-bar span {
+  font-size: 0.65rem;
+  color: #b3b3b3;
+}
+.progress-bar input[type="range"] {
+  width: 60%;
+  accent-color: #1db954; /* Spotify green */
+  height: 4px;
+}
+
+/* RIGHT: Volume Controls */
+.player-right {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+.player-right input[type="range"] {
+  width: 100px;
+  accent-color: #1db954;
+}
