@@ -6,7 +6,7 @@ A front-end-only **Spotify UI Clone** built with **HTML** and **CSS**. This proj
 
 ## 🔗 Live Preview
 
-[👉 Click here to see the live version](https://yourusername.github.io/spotify-clone/)  
+[👉 Click here to see the live version]([https://yourusername.github.io/spotify-clone/](https://github.com/vaishnavi-jais/Spotify_clone))  
 *(Update the link after publishing via GitHub Pages)*
 
 ---
