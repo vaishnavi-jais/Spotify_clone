@@ -6,15 +6,16 @@ A front-end-only **Spotify UI Clone** built with **HTML** and **CSS**. This proj
 
 ## 🔗 Live Preview
 
-[👉 Click here to see the live version]([https://yourusername.github.io/spotify-clone/](https://github.com/vaishnavi-jais/Spotify_clone))  
+[👉 Click here to see the live version](https://yourusername.github.io/spotify-clone/)  
 *(Update the link after publishing via GitHub Pages)*
 
 ---
 
 ## 📸 Screenshots
 
-<img src="C:\Users\Hp\Downloads\capture_250617_222706.png" width="100%" alt="Spotify Clone UI Screenshot">
-
+<img src="C:\Users\Hp\Pictures\Screenshots\Screenshot (577).png" width="100%" alt="Spotify Clone UI Screenshot">
+<img src="C:\Users\Hp\Pictures\Screenshots\Screenshot (578).png" width="100%" alt="Spotify Clone UI Screenshot">
+<img src="C:\Users\Hp\Pictures\Screenshots\Screenshot (579).png" width="100%" alt="Spotify Clone UI Screenshot">
 ---
 
 ## 🛠️ Built With
