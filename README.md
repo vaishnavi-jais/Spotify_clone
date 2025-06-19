@@ -13,9 +13,9 @@ A front-end-only **Spotify UI Clone** built with **HTML** and **CSS**. This proj
 
 ## 📸 Screenshots
 
-<img src="C:\Users\Hp\Pictures\Screenshots\Screenshot (577).png" width="100%" alt="Spotify Clone UI Screenshot">
-<img src="C:\Users\Hp\Pictures\Screenshots\Screenshot (578).png" width="100%" alt="Spotify Clone UI Screenshot">
-<img src="C:\Users\Hp\Pictures\Screenshots\Screenshot (579).png" width="100%" alt="Spotify Clone UI Screenshot">
+<img src="screenshot1.png.png" width="100%" alt="Spotify Clone UI Screenshot">
+<img src="screenshot2.png.png" width="100%" alt="Spotify Clone UI Screenshot">
+<img src="screenshot3.png.png" width="100%" alt="Spotify Clone UI Screenshot">
 ---
 
 ## 🛠️ Built With
